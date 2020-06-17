@@ -3,9 +3,9 @@ const Mastodon = require('mastodon-api');
 console.log('Fosstodon bot starting...');
 
 const M = new Mastodon({
-//*
+/*
 REDACTED
-*//
+*/
 });
 
 const sequelize = new Sequelize('database', 'user', 'password', {
