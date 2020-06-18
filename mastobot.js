@@ -58,6 +58,7 @@ function automaticToot() {
 function toot(content) {
   const params = {
     status: content,
+    visibility: "direct"
   }
   M.post('/api/v1/statuses', params, (error, data) => {
     if (error) {
